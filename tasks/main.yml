@@ -1,2 +1,7 @@
 ---
 # tasks file for add_ios_user
+- name: create a new user
+  ios_user:
+    name: emergent
+    nopassword: "emergent-42-foo!"
+    state: present

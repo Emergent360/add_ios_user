@@ -3,7 +3,7 @@
 - name: create a new user
   ios_user:
     name: emergent
-    configured_password: "emergent-42-foo!"
+    configured_password: "Emergent-42-foo!"
     password_type: secret
     update_password: always
     privilege: 15

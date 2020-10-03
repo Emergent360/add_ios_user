@@ -4,7 +4,7 @@
   ios_user:
     name: emergent
     nopassword: True
-    sshkey: "{{ ec2_name_prefix }}"
+    sshkey: "{{ ec2_name_prefix }}-key"
     privilege: 15
     state: present
   no_log: True

@@ -3,9 +3,8 @@
 - name: create a new user
   ios_user:
     name: emergent
-    configured_password: "Emergent-42-foo!"
-    password_type: secret
-    update_password: always
+    nopassword: True
+    sshkey: "{{ ec2_name_prefix }}"
     privilege: 15
     state: present
   no_log: True

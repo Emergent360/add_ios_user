@@ -7,4 +7,4 @@
     sshkey: "{{ network_rsa_key }}"
     privilege: 15
     state: present
-  no_log: True
+  no_log: False
